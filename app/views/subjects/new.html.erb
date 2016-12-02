@@ -1,0 +1,12 @@
+<!--<%= form_for :subject, url: {action: "create"}, method: :post do |f| %>
+  <p>
+    <%= f.text_field :name ,class:'rectangle'%>
+  </p>
+
+  <p>
+  	<%= f.submit %>
+  </p>
+
+  <% end %>-->
+
+  <%= render 'form', subject: @subject %>

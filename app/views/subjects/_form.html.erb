@@ -1,0 +1,18 @@
+<%= form_for @subject do |f| %>
+ <div class="row">
+  <div class="input-field col s11 ">
+    <%= f.text_field :name, class: 'rectangle' %>
+  </div>
+  <div class="col s1 offset-s10">
+    <%= f.submit "+"  %>
+  </div>
+ </div> 
+<% end %>
+
+<!--<%= form_for @subject do |f| %>
+
+    <%= f.text_field :name, class: 'rectangle' %>
+
+    <%= f.submit "+" %>
+
+<% end %>-->

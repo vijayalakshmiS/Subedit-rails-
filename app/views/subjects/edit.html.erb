@@ -1,0 +1,12 @@
+<h1>Subjects#edit</h1>
+<%= form_for :subject, url: {action: "update"}, method: :put do |f| %>
+  <p>
+    <%= f.label :newsubject %>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+  	<%= f.submit %>
+  </p>
+
+  <% end %>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sublist</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+<nav>
+  <div class="nav-wrapper">
+    <!-- <a href="#" class="brand-logo">Logo</a> -->
+    <ul class="right hide-on-med-and-down">
+      <li><a class="crysalis">CRYSALIS CONTENT PORTAL</a></li>
+      <li><a class="nav" href="#">CURRICULUM</a></li>
+      <li><a class="nav" href="#">LESSONS</a></li>
+      <li><a class="nav" href="#">ACTIVITY</a></li>
+
+      <li><i class="material-icons dp48">settings</i></li>
+      <li><i class="material-icons right">arrow_drop_down</i></li>
+    </ul>
+
+    <ul class="side-nav" id="mobile-demo">
+      <li><a class="crysalis">CRYSALIS CONTENT PORTAL</a></li>
+      <li><a class="nav" href="#">CURRICULUM</a></li>
+      <li><a class="nav" href="#">LESSONS</a></li>
+      <li><a class="nav" href="#">ACTIVITY</a></li>
+      <li><i class="material-icons dp48">settings</i></li>
+      <li><i class="material-icons right">arrow_drop_down</i></li>
+    </ul>
+  </div>
+</nav>
+    <%= yield %>
+  </body>
+</html>

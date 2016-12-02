@@ -1,0 +1,120 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import 'materialize';
+
+ img{
+	height: 20px;
+}
+
+nav .nav-wrapper{
+	background-color:white;
+	color: black;
+}
+
+nav ul a:hover{
+	background-color: none;
+	color: blue;
+}
+
+nav ul a{
+	color: #888484;
+}
+
+a.crysalis {
+    margin-right: 620px;
+}
+
+i.material-icons.right {
+    padding-top: 7px;
+    margin-left: -16px;
+    color: blue;
+}
+
+a.nav{
+	padding-left: 32px;
+}
+.row{
+	margin-top: 44px;
+	text-transform: uppercase;
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.52);*/
+	width: 788.5px;
+    height: 44.5px;
+
+}
+.btn-floating.btn-large{
+	margin-top: -51px;
+    margin-left: 120px;
+    font-size: 48px;
+    background-color: #1976d2;
+}
+.row .col.s11{
+	margin-top: -35px;
+	margin-left: 72px;
+}
+input.rectangle{
+	height: 46.5px;
+	box-shadow: inset 0 0.5px 1.5px 0 #5fa9df;
+    border: solid 1px #1976d2;
+
+}
+
+.text-field{
+	display: none;
+}
+input#submitbtn{
+	width: 40px;
+	height: 40px;
+	top: -34px;
+	left: 8px;
+	font-size: 27px;
+}
+.collapsible-header i{
+	width: 3.7px;
+    height: 6px;
+}
+.collapsible{
+	width: 52%;
+	margin-left: 345px;
+	height: 47.5%;
+	font-family: MartelSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #888484;
+
+}
+
+nav>div> ul> li>a:hover{
+background-color: inherit;
+}
+div > input[type=text]:focus:not([readonly]){
+	border-bottom:inherit;
+	box-shadow: inherit; 
+}
+div > input[type=text]:focus:not([readonly]){
+	border-bottom: 1px solid #1976d2;
+	box-shadow: inset 0 0.5px 1.5px 0 #5fa9df;
+}
+input[type="submit"]{
+	color: white;
+	border-radius: 20px;
+	background-color: #1976d2;
+	position: absolute;
+	right: 273px;
+	top: 171px;
+}
